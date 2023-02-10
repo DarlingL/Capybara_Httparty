@@ -1,4 +1,5 @@
 # Capybara_Httparty
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/DarlingL/Capybara_Httparty/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/DarlingL/Capybara_Httparty/tree/main)
 
 
 ## Para Iniciar ##
