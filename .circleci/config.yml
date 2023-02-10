@@ -2,7 +2,7 @@ version: '2.1'
 orbs:
   browser-tools: circleci/browser-tools@1.4.1
 jobs:
-  working_directory: ~/repo/Capybara
+  working_directory: ~/repo
   testes:
     docker:
       # replace with your preferred image
@@ -20,7 +20,7 @@ jobs:
           command: "sudo bundle install"
       - run:
           name:  ls 1
-          command: "ls" 
+          command: "cd Capybara && cucumber" 
 
 workflows:
   example-workflow:
