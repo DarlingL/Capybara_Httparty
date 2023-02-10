@@ -30,4 +30,4 @@ jobs:
 workflows:
   integration_ci:
     jobs:
-      -   Testes
+      -   testes
