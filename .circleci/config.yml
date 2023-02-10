@@ -3,7 +3,6 @@ orbs:
   browser-tools: circleci/browser-tools@1.4.1
 jobs:
   testes:
-    working_directory: ~/repo
     docker:
       # replace with your preferred image
       - image: cimg/ruby:2.7.6
