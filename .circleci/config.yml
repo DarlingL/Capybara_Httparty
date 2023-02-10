@@ -11,6 +11,8 @@ jobs:
       - browser-tools/install-browser-tools:
           install-chrome: true 
           install-chromedriver: true 
+          install-firefox: false 
+          install-geckodriver: false 
       - checkout
       - run:
           name: install bundler
@@ -26,6 +28,6 @@ jobs:
           command: "cd Httparty && cucumber" 
 
 workflows:
-  example-workflow:
+  Testes:
     jobs:
-      -   testes
+      -   Testes
