@@ -28,6 +28,6 @@ jobs:
           command: "cd Httparty && cucumber" 
 
 workflows:
-  Testes:
+  testes:
     jobs:
       -   Testes
