@@ -28,6 +28,6 @@ jobs:
           command: "cd Httparty && cucumber" 
 
 workflows:
-  testes:
+  integration_ci:
     jobs:
       -   Testes
