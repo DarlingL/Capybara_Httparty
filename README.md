@@ -20,7 +20,7 @@ bundle install
 ## Executando ##
 
 ### Rodar a Automação Web ###
-Dentro do diretório capybara_httparty/Capybara execute:
+Dentro do diretório `capybara_httparty/Capybara` execute:
 ```shell
 cucumber 
 ```
@@ -36,7 +36,7 @@ Browser utilizado no teste é o chrome, necessário instalar chromeDriver compat
 ______________________________________________________________________________________________________
 
 ### Rodar a Automação Api ###
-Dentro do diretório capybara_httparty/Httparty execute:
+Dentro do diretório `capybara_httparty/Httparty` execute:
 ```shell
 cucumber 
 ```
