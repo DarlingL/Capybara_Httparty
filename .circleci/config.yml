@@ -19,14 +19,14 @@ jobs:
           name: install-dependencies
           command: "sudo bundle install"
       - run:
+          name:  ls 1
+          command: "ls" 
+      - run:
           name:  capybara
           command: "cd Capybara"
       - run:
-          name:  Run tests Web
+          name:  ls 2
           command: "ls" 
-      - run:
-          name:  Run tests Web
-          command: "cucumber --init"
 workflows:
   example-workflow:
     jobs:
