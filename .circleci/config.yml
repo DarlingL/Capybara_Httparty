@@ -19,8 +19,11 @@ jobs:
           name: install-dependencies
           command: "sudo bundle install"
       - run:
-          name:  ls 1
+          name:  Run Web Tests Capybara
           command: "cd Capybara && cucumber" 
+      - run:
+          name:  Run API Tests HttParty
+          command: "cd Httparty && cucumber" 
 
 workflows:
   example-workflow:
