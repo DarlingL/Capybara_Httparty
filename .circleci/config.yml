@@ -2,6 +2,7 @@ version: '2.1'
 orbs:
   browser-tools: circleci/browser-tools@1.4.1
 jobs:
+  working_directory: ~/repo/Capybara
   testes:
     docker:
       # replace with your preferred image
@@ -20,12 +21,7 @@ jobs:
       - run:
           name:  ls 1
           command: "ls" 
-      - run:
-          name:  capybara
-          command: "cd Capybara"
-      - run:
-          name:  ls 2
-          command: "ls" 
+
 workflows:
   example-workflow:
     jobs:
